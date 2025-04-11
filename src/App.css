@@ -1,0 +1,92 @@
+/* General Reset and Base Styling */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #002244; /* Deep beach/navy color */
+}
+
+.navbar-brand,
+.nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #ffcc00 !important;
+}
+
+/* Heading */
+h2 {
+  font-weight: 700;
+  color: #002244;
+}
+
+/* Card styling */
+.card {
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 12px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #002244;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+/* Button styling */
+.btn-primary {
+  background-color: #ff7b00;
+  border: none;
+  font-weight: 500;
+}
+
+.btn-primary:hover {
+  background-color: #ff9900;
+}
+
+/* Form Select Styling */
+form select {
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 1rem;
+}
+
+/* Responsive Padding */
+.container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Footer (if any) */
+.footer {
+  background-color: #002244;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+}

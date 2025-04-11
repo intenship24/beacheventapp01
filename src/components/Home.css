@@ -1,0 +1,87 @@
+/* HERO SECTION - Bright and Eye-Catching */
+.hero-section {
+  height: 90vh;
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(0, 123, 255, 0.5)),
+    url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e") center
+      center / cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #000;
+  text-align: center;
+  padding: 2rem;
+}
+.hero-section h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #dfe5ea;
+  text-shadow: 1px 1px 2px #fff;
+}
+
+.hero-section .btn {
+  margin-top: 1rem;
+  background-color: #ff6f61;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+.hero-section .btn:hover {
+  background-color: #e85c50;
+}
+
+/* EVENT CARDS - Clean and Bright */
+.event-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+.event-card:hover {
+  transform: translateY(-5px);
+}
+
+.event-card .card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+
+.event-card .card-title {
+  color: #dfe0e1;
+  font-weight: 700;
+}
+
+.event-card .card-text {
+  color: #333;
+}
+
+.event-card .btn {
+  background-color: #cfd6dd;
+  color: #fff;
+  border: none;
+  font-weight: 500;
+}
+.event-card .btn:hover {
+  background-color: #b7bfc8;
+}
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
+
+.hero-section h1,
+.hero-section p {
+  color: #fff;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+.event-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.event-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.2);
+}
